@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home|CogSMART-Z</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header-navbar">
+        <nav class="navbar navbar-expand-md navbar-light navbar-color sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="home.html">
+                    <img src="assets/logo.svg" alt="CogSMART-Z logo" class="logo me-3">
+                    <span>CogSMART-Z</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-flex align-items-center" href="home.html"><ion-icon name="home-outline"
+                                    class="fs-5 p-0 m-0 me-1" aria-hidden="true"></ion-icon>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-flex align-items-center" href="modules.html"><ion-icon
+                                    name="grid-outline" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>Modules</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link d-inline-flex align-items-center" aria-current="page" href="about.html"><ion-icon
+                                    name="information-circle" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-flex align-items-center" href="resources.html"><ion-icon
+                                    name="book-outline" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>Resources</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-inline-flex align-items-center" href="#"
+                                id="toolsDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><ion-icon name="construct-outline" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>Utilities</a>
+                            <ul class="dropdown-menu navbar-color" aria-labelledby="toolsDropdown">
+                                <li><a class="dropdown-item" href="assessment.html">Assessment</a></li>
+                                <li><a class="dropdown-item" href="training.html">Training</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-inline-flex align-items-center" href="settings.html"><ion-icon
+                                            name="settings-outline" class="fs-5 p-0 m-0 me-1"
+                                            aria-hidden="true"></ion-icon>Settings</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Search Bar -->
+                    <form class="d-flex" role="search" action="search.html" method="get">
+                        <div class="input-group">
+                            <input class="form-control search-bar" type="search" name="q" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-primary border-0 d-flex align-items-center search-btn "
+                                type="submit"><ion-icon name="search-outline" class="fs-5 p-0 m-0"
+                                    aria-hidden="true"></ion-icon></button>
+                        </div>
+                    </form>
+
+                    <!-- Sign Out Button-->
+                    <button type="button" class="btn btn-outline-danger ms-2" data-bs-toggle="modal"
+                        data-bs-target="#signOutModal">
+                        Sign Out
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sign Out Modal -->
+    <div class="modal fade" id="signOutModal" tabindex="-1" aria-labelledby="signOutModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signOutModalLabel">Sign Out</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to sign out?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <form action="/signout" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Sign Out</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container py-5">
+        <!-- Hero -->
+        <section class="bg-light rounded-3 p-4 mb-4">
+            <div class="d-flex flex-column flex-md-row align-items-md-center gap-3">
+                <div class="flex-grow-1">
+                    <h1 class="h2 fw-bold mb-2">About CogSMART‑Z</h1>
+                    <p class="lead mb-0">CogSMART‑Z adapts evidence-based, strategy-first cognitive rehabilitation to help people strengthen memory, attention, learning, and executive skills so they can succeed at work, school, and daily life.</p>
+                </div>
+                <div class="text-md-end">
+                    <a href="resources.html" class="btn btn-primary">Resources</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview + How it works -->
+        <section class="row g-4 mb-4">
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5">What it is</h3>
+                        <p class="mb-0">CogSMART‑Z is a practical, clinician-friendly set of strategies and tools that teach compensatory techniques for everyday cognitive problems. The program emphasizes simple steps users can apply in real-world situations and practice across sessions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5">How it works</h3>
+                        <ul class="mb-0">
+                            <li>Teach concrete, evidence-based strategies (prospective memory, retrospective memory, attention)</li>
+                            <li>Practice in real-life tasks and track progress</li>
+                            <li>Use self-guided lessons or clinician-assigned modules</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Evidence + Benefits -->
+        <section class="row g-4 mb-4">
+            <div class="col-md-7">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5">Evidence & outcomes</h3>
+                        <p class="mb-0">The CogSMART approach is grounded in clinical research and has been adapted for multiple populations (including traumatic brain injury, psychiatric illness, and mild cognitive impairment). Studies show improvements in strategy use and daily functioning when interventions are delivered with fidelity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="https://www.cogsmart.com/assets/photo-951cda1f68e70eff76434946865b8a563e37b08e392490943378f186f271c7fa.jpg" alt="CogSMART" class="img-fluid rounded mb-3">
+                        <p class="small text-muted mb-0">Program materials and manuals support clinicians and self-guided users alike.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Author / Contact -->
+        <section class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h3 class="h5">About the author</h3>
+                <p class="mb-1"><strong>Elizabeth W. Twamley, Ph.D.</strong> — Professor of Psychiatry (UCSD), clinical psychologist and researcher focused on bridging neuropsychology with practical interventions to improve everyday functioning.</p>
+                <p class="mb-0 small text-muted">Contact: <a href="mailto:etwamley@ucsd.edu">etwamley@ucsd.edu</a></p>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="text-center">
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-2">
+                <a href="resources.html" class="btn btn-outline-primary">View manuals & resources</a>
+                <a href="modules.html" class="btn btn-primary">Explore modules</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+
+
+    <!-- IonicIcons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <!--- Bootstrap JS CDN ---
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        --->
+    <!--- Bootstrap Popper CDN --->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

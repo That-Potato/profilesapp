@@ -1,0 +1,62 @@
+:root {
+
+}
+
+body {
+    font-family: Quicksand, Verdana, sans-serif;
+    background-color: #fcfffc;
+}
+
+.hamburger {
+    border: none;
+}
+
+.pill-btn {
+    display: inline-block;
+    border-radius: 50% / 100%;
+}
+
+.header-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-color {
+    /* background-color: #fcfffc; */
+    background-color: #c0b8f5;
+}
+
+
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+#togglePassword{
+    border-color: lightgray;
+}
+
+input::-ms-reveal {
+    display: none;
+    color:royal
+}
+
+.btn-primary {
+    background-color: royalblue;
+    color: white;
+}
+
+.btn-primary .bg-gradient {
+    /* Royal Blue = #4169e1 */
+    background: royalblue; 
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, royalblue, #3159d1); */ /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom, royalblue, #3159d1);  */
+    /* background: linear-gradient(to bottom, cornflowerblue, royalblue); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+    /* background-color:#3159d1; */
+}

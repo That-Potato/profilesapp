@@ -1,0 +1,228 @@
+[
+  {
+    "title": "Cognitive Training Implementation Guide",
+    "subtitle": "Step-by-step program manual",
+    "description": "A practical guide for clinicians and trainers to implement the CogSMART‑Z curriculum, with session outlines and fidelity tips.",
+    "category": "guides",
+    "tags": ["training", "download"],
+    "icon": "book-outline",
+    "viewUrl": "assets/guides/implementation-guide.pdf",
+    "downloadUrl": "assets/guides/implementation-guide.pdf",
+    "viewLabel": "View",
+    "badges": [
+      { "text": "Guides", "color": "primary" },
+      { "text": "Training", "color": "secondary" }
+    ],
+    "date": "2025-01-15",
+    "popularity": 87
+  },
+  {
+    "title": "Participant Worksheets Pack",
+    "subtitle": "Printable practice sheets",
+    "description": "Download ready-to-print worksheets used during training sessions to reinforce strategies and track progress.",
+    "category": "worksheets",
+    "tags": ["clinical", "download"],
+    "icon": "document-text-outline",
+    "viewUrl": "assets/worksheets/worksheets-preview.html",
+    "downloadUrl": "assets/worksheets/participant-worksheets.zip",
+    "viewLabel": "Preview",
+    "badges": [
+      { "text": "Worksheets", "color": "success" }
+    ],
+    "date": "2024-11-05",
+    "popularity": 72
+  },
+  {
+    "title": "Cognitive Rehabilitation Research Summary",
+    "subtitle": "Key findings & citations",
+    "description": "A concise literature summary highlighting evidence for cognitive strategy training and related outcomes.",
+    "category": "research",
+    "tags": ["research"],
+    "icon": "newspaper-outline",
+    "viewUrl": "assets/research/research-summary.html",
+    "badges": [
+      { "text": "Research", "color": "info" }
+    ],
+    "date": "2024-06-20",
+    "popularity": 65
+  },
+  {
+    "title": "Sample Session Video",
+    "subtitle": "Demonstration with facilitator tips",
+    "description": "Watch a short recorded session to see strategy coaching and participant interaction in practice.",
+    "category": "videos",
+    "tags": ["training"],
+    "icon": "play-circle-outline",
+    "viewUrl": "https://example.com/sample-session-video",
+    "badges": [
+      { "text": "Videos", "color": "warning" }
+    ],
+    "date": "2025-03-10",
+    "popularity": 94
+  },
+  {
+    "title": "Assessment Tools Collection",
+    "subtitle": "Scales, scoring sheets, and templates",
+    "description": "Standardized scoring sheets and brief assessments for tracking client progress across sessions.",
+    "category": "tools",
+    "tags": ["tools", "download"],
+    "icon": "calculator-outline",
+    "viewUrl": "assets/tools/assessment-tools.html",
+    "downloadUrl": "assets/tools/assessment-tools.zip",
+    "badges": [
+      { "text": "Tools", "color": "dark" }
+    ],
+    "date": "2024-09-01",
+    "popularity": 80
+  },
+  {
+    "title": "Caregiver Support Guide",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 58
+  },
+  {
+    "title": "Caregiver TESTING Support Guide 1",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 2",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 3",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 4",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 5",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 6",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 7",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2025-12-1",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 8",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 99
+  },
+  {
+    "title": "Extra Test Resource 9",
+    "subtitle": "Tips for supporting strategy use at home",
+    "description": "Practical suggestions for caregivers to reinforce cognitive strategies between sessions.",
+    "category": "guides",
+    "tags": ["training"],
+    "icon": "people-outline",
+    "viewUrl": "assets/guides/caregiver-support.pdf",
+    "downloadUrl": "assets/guides/caregiver-support.pdf",
+    "badges": [
+      { "text": "Guides", "color": "primary" }
+    ],
+    "date": "2024-12-12",
+    "popularity": 100
+  }
+]

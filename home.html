@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home|CogSMART-Z</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- IonicIcons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header-navbar">
+        <nav class="navbar navbar-expand-md navbar-light navbar-color sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="home.html">
+                    <img src="assets/logo.svg" alt="CogSMART-Z logo" class="logo me-3">
+                    <span>CogSMART-Z</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item active">
+                            <a class="nav-link d-inline-flex align-items-center" aria-current="page"
+                                href="home.html"><ion-icon name="home" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-flex align-items-center" href="modules.html"><ion-icon
+                                    name="grid-outline" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>Modules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-flex align-items-center" href="about.html"><ion-icon
+                                    name="information-circle-outline" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-flex align-items-center" href="resources.html"><ion-icon
+                                    name="book-outline" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>Resources</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-inline-flex align-items-center" href="#"
+                                id="toolsDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"><ion-icon name="construct-outline" class="fs-5 p-0 m-0 me-1"
+                                    aria-hidden="true"></ion-icon>Utilities</a>
+                            <ul class="dropdown-menu navbar-color" aria-labelledby="toolsDropdown">
+                                <li><a class="dropdown-item" href="assessment.html">Assessment</a></li>
+                                <li><a class="dropdown-item" href="training.html">Training</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-inline-flex align-items-center" href="settings.html"><ion-icon
+                                            name="settings-outline" class="fs-5 p-0 m-0 me-1"
+                                            aria-hidden="true"></ion-icon>Settings</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Search Bar -->
+                    <form class="d-flex" role="search" action="search.html" method="get">
+                        <div class="input-group">
+                            <input class="form-control search-bar" type="search" name="q" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-primary border-0 d-flex align-items-center search-btn "
+                                type="submit"><ion-icon name="search-outline" class="fs-5 p-0 m-0"
+                                    aria-hidden="true"></ion-icon></button>
+                        </div>
+                    </form>
+
+                    <!-- Sign Out Button-->
+                    <button type="button" class="btn btn-outline-danger ms-2" data-bs-toggle="modal"
+                        data-bs-target="#signOutModal">
+                        Sign Out
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sign Out Modal -->
+    <div class="modal fade" id="signOutModal" tabindex="-1" aria-labelledby="signOutModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signOutModalLabel">Sign Out</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to sign out?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <form action="/signout" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Sign Out</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-5 fw-bold">Build habits that matter with CogSMART</h1>
+                <p class="lead">CogSMART stands for Cognitive Symptom Management and Rehabilitation Therapy — a
+                    practical,
+                    strategy-first approach that helps people strengthen their prospective memory, retrospective memory,
+                    attention, learning, and
+                    executive functioning so they can thrive at work, school, home, and social situations.</p>
+
+                <ul class="mb-4">
+                    <li>Learn simple, evidence-based strategies you can use every day</li>
+                    <li>Practice in real-world tasks and track progress</li>
+                    <li>Work with a clinician or use the self-guided program</li>
+                </ul>
+
+                <div class="d-flex gap-2">
+                    <a class="btn btn-primary" href="#" data-bs-toggle="modal"
+                        data-bs-target="#signupModal">Sign
+                        Up</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-4 mt-md-0">
+                <!-- <div
+                    class="ratio ratio-16x9 bg-light rounded shadow-sm d-flex align-items-center justify-content-center">
+                    <div class="text-center p-3">
+                        <img src="assets/hero.svg" alt="CogSMART" style="width: 100%; height: 100%;" class="mb-3">
+                        <p class="mb-0">Interactive modules, progress tracking, and therapist tools.</p>
+                    </div>
+                </div> -->
+                <img src="assets/hero3.svg" alt="CogSMART" style="width: 100%; height: 100%;" class="mb-3 p-0">
+            </div>
+        </div>
+
+        <section class="mt-5">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Practical strategies</h5>
+                            <p class="card-text">We teach compensatory techniques — simple steps that reduce memory and
+                                attention failures in daily life.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Clinician-ready</h5>
+                            <p class="card-text">Therapists can assign modules, monitor patient progress, and
+                                personalize
+                                training.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Built-In Executive Functioning Tools</h5>
+                            <p class="card-text">Build your habits with in-site tools for organization, time-management,
+                                planning, and note-taking!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+
+
+    <!-- IonicIcons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <!--- Bootstrap JS CDN ---
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        --->
+    <!--- Bootstrap Popper CDN --->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
